@@ -1,0 +1,235 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.hero-image{
+
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url(images/donation15.jpg);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.headline-color{
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    width: 60%;
+    margin-bottom: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+#sub-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.donate-button{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF5959;
+    padding: 20px;
+    border-radius: 5px;
+}
+.donate-now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.contribution-area{
+    display: flex;
+    margin: 100px 150px;
+}
+#border-glow{
+    color: #FF5959;
+    background-color: #ffeeee;
+    border: 2px solid #FF5959;
+    border-color: #FF5959;
+}
+.half-width{
+    width: 50%;
+    padding: 50px;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 5px;
+}
+.headings{
+    font-size: 45px;
+    font-weight: 700;
+}
+.sub-headings{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.sub-line{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+}
+#image-boy{
+    width: 100%;
+    height: 120%;
+    border-radius: 5px;
+}
+.email-form{
+    text-align: center;
+    margin-bottom: 0;
+}
+.submit-form{
+    background-color: #FFF4D6;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.email-input{
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: #aa9f9f;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 15px 15px 20px;
+    width: 275px;
+
+}
+#submit-button{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FF5959;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -6px;
+    padding: 15px;
+    width: 157px;
+
+}
+
+.amount-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.amount-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount-container li{
+    margin: 20px;
+    background-color: #fafafa;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 45px 20px;
+    border-radius: 5px;
+}
+
+.input-field{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+    width: 100%;
+    color: #dadada;
+    text-align: center;
+    border-style: none;
+    border-bottom: 1px solid #dadada;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    padding: 30px 60px;
+}
+#food{
+    background-color: #EDF5F6;
+    margin-right: 25px;
+    border-radius: 5px;
+    padding: 60px 35px;
+}
+#shelter{
+    background-color: #FFEEEE;
+    margin-right: 25px;
+    border-radius: 5px;
+    padding: 60px 35px;
+}
+#education{
+    background-color: #FFF4D6;
+    margin-right: 25px;
+    border-radius: 5px;
+    padding: 60px 35px;
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+}
+.card-subtext{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+footer{
+    background-color: black;
+    margin: 0;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF5959;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
